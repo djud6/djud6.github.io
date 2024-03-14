@@ -1,1 +1,370 @@
-Hello, Website is currently under maintenace. Severely underestimated the difficulty of writing css for a navbar in react using react bootstrap. Still trying to figure it out, website will be updated as soon as I solve that puzzle. 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+      <div class="responsive-nav">
+        <i class="fa fa-bars" id="menu-toggle"></i>
+        <div id="menu" class="menu">
+          <i class="fa fa-times" id="menu-close"></i>
+          <div class="container">
+            <div class="image">
+              <a href="#"><img src="assets/images/pp.jpg" alt="" /></a>
+            </div>
+            <div class="author-content">
+              <h4>David Udoeyop</h4>
+              <span>Software Engineer</span>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#section1">About Me</a></li>
+                <li><a href="#section2">What I’m good at</a></li>
+                <li><a href="#section3">My Work</a></li>
+                <li><a href="#section4">Contact Me</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul class="soial-icons">
+                <li>
+                  <a href="https://www.linkedin.com/in/davidudoeyop/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="mailto: djudoeyop@gmail.com"><i class="fa fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+            <div class="copyright-text">
+              <p>Built by me</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="section about-me" data-section="section1">
+        <div class="container">
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <span
+              >My name is David, and I am a computer science student with a passion for software engineering. Some of my other intrests include; software design, chess, sports, artificial intelligience and machine learning. </span
+            >
+          </div>
+          <div class="left-image-post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img src="assets/images/front.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-text">
+                  <p>
+                    This is me as a building manager at my school's student union, where I spend a lot of my time interacting with visitors and my fellow students, offering to help in any way I can. I also look after students in secondary positions that work with me and delegate tasks when neccessary. I like this job a lot because the student union is the hub of campus life and as a reult, I get to meet new people from different places. I also like beng trusted with the responsibility of making sure everything is flowing as it should in a building as big as the student union.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section my-services" data-section="section2">
+        <div class="container">
+          <div class="section-heading">
+            <h2>What am I good at?</h2>
+            <div class="line-dec"></div>
+            <span
+              >For the most part, I would say I'm good at problem solving and person. Now look below for the relevant stuff:</span
+            >
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="first-service-icon service-icon"></div>
+                <h4>HTML5 &amp; CSS3</h4>
+                <p>
+                  Very skillful with HTML and CSS. This was my first love in computer science, I wanted to be creative and used this as an outlet and so naturally, I practiced it a lot as and became very good at it.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="second-service-icon service-icon"></div>
+                <h4>I can code in 4 different languages</h4>
+                <p>
+                  I learned computer science in Java and used c++ in college. I am self taught in  javascript and python.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-item">
+                <div class="third-service-icon service-icon"></div>
+                <h4>Up to date with frameworks</h4>
+                <p>
+                  Frameworks are fairly new to me, especially becuase they technically weren't taguht to me in school. It was something I had to venture out and learn myself. For example, I learned REACT because when I started applying for jobs, a lot of companies required knowledege of REACT in their job description. So I went ahead and learnt it myself even though I wasn't taught in school. And then that led me to next.js and redux, etc.
+                </p>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="section my-work" data-section="section3">
+        <div class="container">
+          <div class="section-heading">
+            <h2>My Work</h2>
+            <div class="line-dec"></div>
+            <span
+              >Grouped my personal projects based on their respective motivations</span
+            >
+          </div>
+          <div class="row">
+            <div class="isotope-wrapper">
+              <form class="isotope-toolbar">
+                <label
+                  ><input
+                    type="radio"
+                    data-type="*"
+                    checked=""
+                    name="isotope-filter"
+                  />
+                  <span>all</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="School"
+                    name="isotope-filter"
+                  />
+                  <span>School</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Personal"
+                    name="isotope-filter"
+                  />
+                  <span>Personal</span></label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    data-type="Other"
+                    name="isotope-filter"
+                  />
+                  <span>Other</span></label
+                >
+              </form>
+              <div class="isotope-box">
+                <div class="isotope-item" data-type="Personal">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/stonks.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/stonks.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>EAFC_STONKS</h4>
+                      <span>scripts that scrappes information about EAFC player prices from a website called futbin</span>
+                      <h5><a href="https://github.com/djud6/EAFC_stonks" target="_blank">Github Link</a></h5>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Other">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/todo.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/todo.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Todo List</h4>
+                      <span>Very very simple REACT/VITE project.</span>
+                      <h5><a href="https://github.com/djud6/Easy-REACT-VITE-todo-list" target="_blank">Github Link</a></h5>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="School">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/connections.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/connections.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>MongoDB and Express Project</h4>
+                      <span>Events website built with MongoDB and Express. Follows MVC architecture</span>
+                      <h5><a href="https://github.com/djud6/MongoDB-Project" target="_blank">Github Link</a></h5>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Other">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/react_web.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/react_web.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>React Website</h4>
+                      <span>Simple website built using REACT framework</span>
+                      <h5><a href="https://github.com/djud6/React-Website" target="_blank">Github Link</a></h5>
+                    </figcaption>
+                  </figure>
+                </div>
+
+                <div class="isotope-item" data-type="Other">
+                  <figure class="snip1321">
+                    <img
+                      src="assets/images/chess.png"
+                      alt="sq-sample26"
+                    />
+                    <figcaption>
+                      <a
+                        href="assets/images/chess.png"
+                        data-lightbox="image-1"
+                        data-title="Caption"
+                        ><i class="fa fa-search"></i
+                      ></a>
+                      <h4>Hobby Website</h4>
+                      <span>Hobby website about chess</span>
+                      <h5><a href="https://github.com/djud6/Chess-site" target="_blank">Github Link</a></h5>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-me" data-section="section4">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+            <span
+              ><div class="social-network">
+                <ul class="soial-icons">
+                  <li>
+                    <a href="https://www.linkedin.com/in/davidudoeyop/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="mailto: djudoeyop@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </li>
+                </ul>
+              </div></span
+            >
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+      //according to loftblog tut
+      $(".main-menu li:first").addClass("active");
+
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
+          reqSectionPos = reqSection.offset().top - 0;
+
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
+
+      var checkSection = function checkSection() {
+        $(".section").each(function() {
+          var $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
+          }
+        });
+      };
+
+      $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function() {
+        checkSection();
+      });
+    </script>
+  </body>
+</html>
