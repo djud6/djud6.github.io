@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Udoeyop | Software Engineer</title>
-    <meta name="description" content="Portfolio of David Udocyop, a software engineer specializing in full-stack development and scalable solutions.">
-    <link rel="stylesheet" href="styles.css">
+    <title>David Udoeyop | Software Engineer & AI/ML Developer</title>
+    <meta name="description" content="Portfolio of David Udoeyop, a software engineer building full-stack, data, and AI/ML projects.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <!-- Header -->
@@ -46,8 +47,8 @@
             <div class="container">
                 <div class="hero-content">
                     <h1 class="animate-fade-in">Hi, I'm <span>David Udoeyop</span></h1>
-                    <h2 class="animate-fade-in delay-200">Full-Stack Developer</h2>
-                    <p class="animate-fade-in delay-400">I build scalable, efficient, and user-centric web applications.</p>
+                    <h2 class="animate-fade-in delay-200">Software Engineer · AI/ML Developer</h2>
+                    <p class="animate-fade-in delay-400">I build practical software, data pipelines, and machine-learning projects with a focus on clear engineering and measurable results.</p>
                     <div class="hero-buttons animate-fade-in delay-600">
                         <a href="#contact" class="btn btn-primary">Get in Touch</a>
                         <a href="#projects" class="btn btn-outline">View My Work</a>
@@ -78,8 +79,8 @@
                         <div class="image-bg"></div>
                     </div>
                     <div class="about-text">
-                        <h3>Software Engineer & Problem Solver</h3>
-                        <p>Passionate full-stack developer with hands-on experience in building enterprise applications and optimizing workflows. Very eager to learn, grow and contribute.</p>
+                        <h3>Software Engineer Building Across Web, Data & AI</h3>
+                        <p>Software engineer with experience across full-stack development, cloud systems, data pipelines, and applied machine learning. I enjoy taking a problem from idea to working implementation, then measuring and improving the result.</p>
                         <div class="about-details">
                             <div class="detail-item">
                                 <p class="detail-label">Name:</p>
@@ -91,7 +92,7 @@
                             </div>
                             <div class="detail-item">
                                 <p class="detail-label">Location:</p>
-                                <p>Falls Church, VA (Remote/Hybrid Available)</p>
+                                <p>Toronto, ON</p>
                             </div>
                         </div>
                         <a href="David Udoeyop visa resume.docx.pdf" class="btn btn-primary" download>
@@ -112,29 +113,29 @@
                 <div class="skills-grid">
                     <div class="skill-card">
                         <div class="skill-icon"><i class="fas fa-code"></i></div>
-                        <h3>Frontend</h3>
+                        <h3>Software Development</h3>
                         <ul>
-                            <li>React</li>
-                            <li>Next.js</li>
+                            <li>Python</li>
                             <li>JavaScript</li>
-                            <li>HTML/CSS</li>
+                            <li>React / Next.js</li>
+                            <li>HTML / CSS</li>
                         </ul>
                     </div>
                     <div class="skill-card">
                         <div class="skill-icon"><i class="fas fa-server"></i></div>
-                        <h3>Backend</h3>
+                        <h3>AI & Data</h3>
                         <ul>
-                            <li>Node.js</li>
-                            <li>Express</li>
-                            <li>Django</li>
-                            <li>Ruby on Rails</li>
+                            <li>NumPy / pandas</li>
+                            <li>scikit-learn</li>
+                            <li>OpenCV</li>
+                            <li>SciPy</li>
                         </ul>
                     </div>
                     <div class="skill-card">
                         <div class="skill-icon"><i class="fas fa-database"></i></div>
-                        <h3>Databases</h3>
+                        <h3>Backend & Data</h3>
                         <ul>
-                            <li>MySQL</li>
+                            <li>Django / Node.js</li>
                             <li>PostgreSQL</li>
                             <li>MongoDB</li>
                             <li>SQLite</li>
@@ -147,7 +148,7 @@
                             <li>AWS</li>
                             <li>Azure</li>
                             <li>Docker</li>
-                            <li>GitHub Actions</li>
+                            <li>Git / GitHub Actions</li>
                         </ul>
                     </div>
                 </div>
@@ -162,6 +163,80 @@
                     <div class="section-divider"></div>
                 </div>
                 <div class="projects-container">
+
+                    <!-- Project: Contactless Breathing-Rate Estimation -->
+                    <div class="project-item">
+                        <div class="project-image breathing-preview">
+                            <svg viewBox="0 0 760 360" role="img" aria-label="Breathing-rate signal and frequency spectrum preview">
+                                <defs>
+                                    <linearGradient id="waveGlow" x1="0" x2="1">
+                                        <stop offset="0%" stop-color="#38bdf8"/>
+                                        <stop offset="100%" stop-color="#818cf8"/>
+                                    </linearGradient>
+                                </defs>
+
+                                <rect x="0" y="0" width="760" height="360" rx="24" fill="transparent"/>
+                                <text x="42" y="58" fill="#f8fafc" font-size="27" font-family="Inter, Arial" font-weight="700">
+                                    Contactless Breathing Rate
+                                </text>
+                                <text x="42" y="87" fill="#94a3b8" font-size="15" font-family="Inter, Arial">
+                                    Optical flow → filtered motion → frequency → BPM
+                                </text>
+
+                                <line x1="42" y1="205" x2="718" y2="205" stroke="#334155" stroke-width="2"/>
+                                <path d="M42 205
+                                         C70 205, 74 138, 108 138
+                                         C142 138, 147 270, 181 270
+                                         C215 270, 220 140, 254 140
+                                         C288 140, 293 266, 327 266
+                                         C361 266, 366 143, 400 143
+                                         C434 143, 439 267, 473 267
+                                         C507 267, 512 141, 546 141
+                                         C580 141, 585 268, 619 268
+                                         C653 268, 658 146, 692 146
+                                         C708 146, 712 176, 718 205"
+                                      fill="none" stroke="url(#waveGlow)" stroke-width="7" stroke-linecap="round"/>
+
+                                <rect x="42" y="302" width="182" height="34" rx="17" fill="#0f766e"/>
+                                <text x="133" y="324" text-anchor="middle" fill="#ecfeff" font-size="14" font-family="Inter, Arial" font-weight="600">
+                                    Estimated: 18 BPM
+                                </text>
+
+                                <rect x="238" y="302" width="168" height="34" rx="17" fill="#312e81"/>
+                                <text x="322" y="324" text-anchor="middle" fill="#eef2ff" font-size="14" font-family="Inter, Arial" font-weight="600">
+                                    OpenCV + SciPy
+                                </text>
+                            </svg>
+                            <div class="project-overlay">
+                                <a href="project_overview_with_visuals.html" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-chart-line"></i> View Project
+                                </a>
+                                <a href="https://github.com/djud6/Data-Vision-Project" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Contactless Breathing-Rate Estimation from Video</h3>
+                            <p>Built a computer-vision pipeline that estimates respiratory rate from ordinary video by tracking chest motion with dense optical flow, filtering the motion signal, and identifying its dominant breathing frequency. Added signal-quality checks for blur, low light, body movement, inconsistent chest motion, and camera shake.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">SciPy</span>
+                                <span class="tag">NumPy</span>
+                                <span class="tag">Signal Processing</span>
+                            </div>
+                            <div class="project-links-inline">
+                                <a href="project_overview_with_visuals.html" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">
+                                    View Visual Project
+                                </a>
+                                <a href="https://github.com/djud6/Data-Vision-Project" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                                    GitHub Repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Project 1 -->
                     <div class="project-item">
                         <div class="project-image">
@@ -172,7 +247,7 @@
                         </div>
                         <div class="project-info">
                             <h3>Dual Container Blog Application</h3>
-                            <p>Deployed a scalable blog platform using Azure Kubernetes Service (AKS) with Dockerized backend (Ruby on Rails) and frontend (Next.js).</p>
+                            <p>Built and deployed a containerized blog platform with a Next.js frontend and Ruby on Rails backend, using Docker and Azure Kubernetes Service (AKS) for deployment.</p>
                             <div class="project-tags">
                                 <span class="tag">Azure</span>
                                 <span class="tag">Docker</span>
@@ -192,7 +267,7 @@
                         </div>
                         <div class="project-info">
                             <h3>EAFC25 Player Price Tracker</h3>
-                            <p>Automated Python pipeline scraping 10,000+ hourly player stats into AWS RDS, with Power BI dashboards for real-time analysis.</p>
+                            <p>Built an automated Python data pipeline that collected 10,000+ player records into AWS RDS and surfaced pricing trends through Power BI dashboards.</p>
                             <div class="project-tags">
                                 <span class="tag">Python</span>
                                 <span class="tag">AWS</span>
@@ -212,7 +287,7 @@
                 </div>
                 <div class="project-info">
                     <h3>Online Literary Club</h3>
-                    <p>Online Literary Club (OLC): Designed a responsive web platform using HTML/CSS and Django, reducing development time by 42% via reusable templates and modular design. Implemented secure user authentication and a scalable architecture with 10 interconnected database models to streamline dynamic content management and enhance user experience.</p>
+                    <p>Built a responsive literary-community platform with Django and reusable templates, including user authentication and a relational data model spanning 10 interconnected database models.</p>
                     <div class="project-tags">
                         <span class="tag">Python</span>
                         <span class="tag">Django</span>
@@ -263,6 +338,12 @@
                         <div class="timeline">
                             <div class="timeline-item">
                                 <div class="timeline-dot"></div>
+                                <div class="timeline-date"><i class="fas fa-calendar"></i><span>Expected Apr 2027</span></div>
+                                <h4>Graduate Certificate, Artificial Intelligence & Machine Learning</h4>
+                                <p class="company">Seneca Polytechnic</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
                                 <div class="timeline-date"><i class="fas fa-calendar"></i><span>Graduated Dec 2024</span></div>
                                 <h4>BSc Computer Science</h4>
                                 <p class="company">University of North Carolina at Charlotte</p>
@@ -301,7 +382,7 @@
                                 <div class="icon-container"><i class="fas fa-map-marker-alt"></i></div>
                                 <div>
                                     <h4>Location</h4>
-                                    <p>Falls Church, VA</p>
+                                    <p>Toronto, ON</p>
                                 </div>
                             </div>
                         </div>
@@ -315,11 +396,12 @@
         <div class="container">
             <div class="footer-content">
                 <div class="copyright">
-                    <p>&copy; <span id="current-year"></span> David Udocyop. All rights reserved.</p>
+                    <p>&copy; <span id="current-year"></span> David Udoeyop. All rights reserved.</p>
                 </div>
             </div>
         </div>
     </footer>
+
 
     <script src="script.js"></script>
 </body>
